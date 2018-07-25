@@ -40,7 +40,7 @@ handleSubmit = (event) => {
             <input value={this.state.term} onChange={this.onChange} />
             <button>Search</button>
           </form>
-          <div class="just-div">
+          <div className="just-div">
             <img src={this.state.img} height="200" alt={this.state.term} />
           </div>
         </div>
